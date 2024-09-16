@@ -1,0 +1,78 @@
+.profile-img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  .left-panel {
+    width: 25%;
+    padding: 20px;
+  }
+  .right-panel {
+    width: 75%;
+    padding: 20px;
+  }
+  .sidebar-option {
+    cursor: pointer;
+    padding: 15px;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 15px;
+    text-align: center;
+    background-color: white;
+  }
+  .sidebar-option:hover {
+    background-color: white;
+  }
+  .active-option {
+    background-color: white;
+    color: #D35269; 
+  }
+  .form-control {
+    margin-bottom: 20px;
+  }
+
+  #order-history {
+    width: 100%;
+    padding: 20px;
+    background-color: #fff; /* Adjust the background color as needed */
+  }
+  
+  .order-item {
+    display: flex;
+    justify-content: space-between; /* Space between details and actions */
+    align-items: flex-start; /* Align items to the start */
+    margin-bottom: 20px;
+  }
+  
+  .order-item:last-child {
+    border-bottom: none;
+  }
+  
+  .reorder-btn {
+    background-color: #D35269; /* Purple background for the reorder button */
+    color: white;
+    padding: 8px 16px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .pagination a {
+    text-decoration: none;
+    margin: 0 5px;
+    color: #333;
+  }
+  
+  .pagination a:hover {
+    text-decoration: underline;
+  }
+
+
+.order-details {
+    flex: 1; /* Takes up available space */
+}
+
+.order-actions {
+    display: flex;
+    flex-direction: column; /* Stack the image and button vertically */
+    align-items: flex-end; /* Align to the end of the container */
+}
